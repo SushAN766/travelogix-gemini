@@ -3,7 +3,7 @@ import { TravelForm } from "@/components/TravelForm";
 import { TravelItinerary } from "@/components/TravelItinerary";
 import { generateTravelPlan, TravelPreferences } from "@/lib/gemini";
 import { useToast } from "@/components/ui/use-toast";
-import { SettingsDialog } from "@/components/SettingsDialog";
+//import { SettingsDialog } from "@/components/SettingsDialog";
 
 const Index = () => {
   const [itinerary, setItinerary] = useState("");
@@ -43,7 +43,7 @@ const Index = () => {
             <h1 className="text-4xl font-bold text-travel-primary">
               Travaera — AI Travel Companion.
             </h1>
-            <SettingsDialog />
+            
           </div>
           <p className="text-center text-white mb-8">
             

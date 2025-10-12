@@ -175,7 +175,7 @@ async function fetchFlights(source: string, destination: string, date: string) {
 
 export async function generateTravelPlan(preferences: TravelPreferences) {
   const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `Act as a travel planning expert. Create a detailed travel itinerary based on the following preferences:
     - Traveling from: ${preferences.source}

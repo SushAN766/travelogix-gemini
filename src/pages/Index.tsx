@@ -40,7 +40,7 @@ const Index = () => {
       <div className="relative z-10 container py-12">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-travel-primary">
+            <h1 className="text-4xl font-bold text-travel-primary text-center w-full">
               Travaera — AI Travel Companion.
             </h1>
             
